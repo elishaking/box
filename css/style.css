@@ -58,6 +58,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   margin-top: 7em;
+  position: relative;
 }
 
 .left {
@@ -85,4 +86,23 @@ button:hover {
   background-image: linear-gradient(teal, rgb(0, 66, 66));
   border-radius: 40px;
   transition: 0.7s ease-in-out;
+}
+
+.border {
+  background-color: teal;
+  width: 20px;
+  height: 50vh;
+  position: absolute;
+}
+
+.start {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  left: -10vw;
+}
+
+.end {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  right: -10vw;
 }
