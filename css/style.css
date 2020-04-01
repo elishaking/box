@@ -17,7 +17,7 @@ nav {
 
 nav h1 {
   text-transform: uppercase;
-  color: gray;
+  color: teal;
 }
 
 nav ul {
@@ -32,6 +32,14 @@ nav li {
 }
 
 nav button {
+}
+
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
+button {
   padding: 1em 2em;
   outline: none;
   border: none;
@@ -41,17 +49,34 @@ nav button {
   box-shadow: 1px -1px 20px 1px #0000004d;
   color: white;
   cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: #505050;
-}
-
-button {
   transition: 0.3s ease-in-out;
 }
 
 button:hover {
   opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7em;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 30%;
+}
+
+.left h1 {
+  font-size: 4em;
+  color: teal;
+}
+
+.left p {
+  margin: 2em 0;
+  color: gray;
 }
