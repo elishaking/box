@@ -6,4 +6,52 @@
 
 body {
   font-family: Lato, sans-serif;
+  padding: 3em 10vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  text-transform: uppercase;
+  color: gray;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 2em;
+  text-transform: uppercase;
+}
+
+nav button {
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: teal;
+  box-shadow: 1px -1px 20px 1px #0000004d;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
+button {
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
 }
